@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="cap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#312E81" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <!-- Graduation Cap & Spark AI Icon -->
+  <g filter="url(#glow)">
+    <!-- Cap top -->
+    <path d="M256 120 L400 190 L256 260 L112 190 Z" fill="url(#cap)" />
+    <!-- Cap under / skullcap -->
+    <path d="M168 225 L168 290 C168 335 344 335 344 290 L344 225 L256 268 Z" fill="#E0E7FF" opacity="0.95" />
+    <!-- Tassel -->
+    <path d="M380 200 L395 285 L385 295 L375 285 Z" fill="#FCD34D" />
+    <circle cx="380" cy="200" r="6" fill="#F59E0B" />
+    <!-- AI Sparkle in the center -->
+    <path d="M256 340 Q256 380 286 380 Q256 380 256 420 Q256 380 226 380 Q256 380 256 340 Z" fill="#FDE047" />
+    <circle cx="256" cy="380" r="5" fill="#FFFFFF" />
+    <!-- Small star sparks -->
+    <path d="M330 350 Q330 365 345 365 Q330 365 330 380 Q330 365 315 365 Q330 365 330 350 Z" fill="#93C5FD" />
+    <path d="M182 350 Q182 365 197 365 Q182 365 182 380 Q182 365 167 365 Q182 365 182 350 Z" fill="#C4B5FD" />
+  </g>
+</svg>

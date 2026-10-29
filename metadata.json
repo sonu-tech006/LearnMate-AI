@@ -1,0 +1,6 @@
+{
+  "name": "LearnMate AI",
+  "description": "Your Personal Learning Companion — AI-powered notes summarizer, interactive quiz generator, smart revision planner, and conversational AI tutor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
